@@ -22,7 +22,7 @@ you can easily locate that `header.jsx`
 ```javascript
 import root from 'node-root'
 
-root('library/components/header.jsx')
+const header = require(root('library/components/header.jsx'))
 ```
 
 # License
