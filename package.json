@@ -1,14 +1,16 @@
 {
   "name": "node-root",
-  "version": "0.0.12",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha test.js",
+    "build": "babel index.babel.js -o index.js"
   },
   "author": "EGOIST",
   "license": "MIT",
   "devDependencies": {
+    "babel": "^5.8.23",
     "mocha": "^2.3.3",
     "should": "^7.1.0"
   }
