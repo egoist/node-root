@@ -1,0 +1,15 @@
+{
+  "name": "node-root",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "author": "EGOIST",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  }
+}
