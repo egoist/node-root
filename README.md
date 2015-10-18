@@ -22,7 +22,7 @@ you can easily locate that `header.jsx`
 ```javascript
 import root from 'node-root'
 
-import header from root('library/components/header.jsx')
+const header = require(root('library/components/header.jsx'))
 ```
 
 The directory where you install `node-root` will be recognized as project's root, eg: `node_modules/other` is the root for `node_modules/other/node_modules/node-root`.
